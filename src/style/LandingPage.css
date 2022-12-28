@@ -1,0 +1,56 @@
+.myBG {
+    height: 100vh;
+    background: url("../assets/DUFAN/BG/main.jpg");
+    background-size: cover;
+}
+
+.intro {
+    height: 300px;
+    display: flex;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 2px black;
+    letter-spacing: 4px;
+}
+
+.niagara {
+    height: auto;
+    background: url("../assets/DUFAN/NIAGARA/bg1.JPG");
+    background-size: cover;
+}
+
+.arungjeram {
+    height: auto;
+    background: url("../assets/DUFAN/ARUNG\ JERAM/ar1.JPG");
+    background-size: cover;
+}
+
+.korakora {
+    height: auto;
+    background: url("../assets/DUFAN/KORA-KORA/bgkr.JPG");
+    background-size: cover;
+}
+
+.hysteria {
+    height: auto;
+    background: url("../assets/DUFAN/HISTERIA/hysteria1.JPG");
+    background-size: cover;
+}
+
+.liburanImage {
+    height: 450px;
+    background-color: lightblue;
+    margin: 5px;
+    padding: 5px;
+}
+
+.Image {
+    height: 320px;
+    background-color: lightcyan;
+    margin: 5px;
+    padding: 5px;
+}

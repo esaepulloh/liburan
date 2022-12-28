@@ -1,24 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import NavigationBar from './components/NavigationBar';
+import "./style/LandingPage.css"
+import Intro from "./components/Intro"
+import ArungJeram from "./components/ArungJeram"
+import Niagara from "./components/Niagara"
+import KoraKora from "./components/KoraKora"
+import Hysteria from "./components/Hysteria"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <div>
+    {/* intro section */}
+    <div className="myBG">  
+      <NavigationBar />
+      <Intro />
     </div>
+    {/* end of intro */}
+
+    <div className="niagara">
+      <Niagara/>
+    </div>
+
+    <div className="korakora">
+      <KoraKora/>
+    </div>
+    
+    <div className="arungjeram">
+      <ArungJeram/>
+    </div>
+
+    <div className="hysteria">
+      <Hysteria/>
+    </div>
+  </div>
   );
 }
 
