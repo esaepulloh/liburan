@@ -42,14 +42,14 @@
 }
 
 .liburanImage {
-    height: 450px;
+    height: 60vh;
     background-color: lightblue;
     margin: 5px;
     padding: 5px;
 }
 
 .Image {
-    height: 320px;
+    height: 40vh;
     background-color: lightcyan;
     margin: 5px;
     padding: 5px;
