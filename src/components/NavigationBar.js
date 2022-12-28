@@ -2,15 +2,15 @@ import {Navbar, Container, Nav} from "react-bootstrap"
 
 const NavigationBar = () => {
     return (
-        <div>
+        <div className="subtitle">
             <Navbar variant="light">
                 <Container>
-                    <Navbar.Brand href="/">LIBURAN DUFAN</Navbar.Brand>
+                    <Navbar.Brand className="text-dark" href="/">DUFAN</Navbar.Brand>
                     <Nav>
-                        <Nav.Link href="#niagara">NIAGARA</Nav.Link>
-                        <Nav.Link href="#korakora">KORA-KORA</Nav.Link>
-                        <Nav.Link href="#arungjeram">ARUNG JERAM</Nav.Link>
-                        <Nav.Link href="#hysteria">HYSTERIA</Nav.Link>
+                        <Nav.Link className="tex-muted" href="#niagara">NIAGARA</Nav.Link>
+                        <Nav.Link className="text-muted" href="#korakora">KORA-KORA</Nav.Link>
+                        <Nav.Link className="text-muted" href="#arungjeram">ARUNG JERAM</Nav.Link>
+                        <Nav.Link className="text-muted" href="#hysteria">HYSTERIA</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>

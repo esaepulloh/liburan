@@ -5,7 +5,7 @@ import krduaImage from "../assets/DUFAN/KORA-KORA/kr2.JPG"
 
 const KoraKora = () => {
     return (
-        <div>
+        <div className="subsub">
             <Container>
                 <br />
                 <h1 className="text-white text-center d-flex justify-content-center align-items-center" id="korakora">WAHANA KORA-KORA</h1>

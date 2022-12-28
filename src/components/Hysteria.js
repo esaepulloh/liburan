@@ -3,9 +3,9 @@ import hyssatuImage from "../assets/DUFAN/HISTERIA/hysteria3.JPG"
 import hysduaImage from "../assets/DUFAN/HISTERIA/hysteria3.JPG"
 import hystigaImage from "../assets/DUFAN/HISTERIA/hysteria3.JPG"
 
-const KoraKora = () => {
+const Hysteria = () => {
     return (
-        <div>
+        <div className="subsub">
             <Container>
                 <br />
                 <h1 className="text-white text-center d-flex justify-content-center align-items-center" id="hysteria">WAHANA HYSTERIA</h1>
@@ -26,4 +26,4 @@ const KoraKora = () => {
         </div>
     )
 }
-export default KoraKora
+export default Hysteria

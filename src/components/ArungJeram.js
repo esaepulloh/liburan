@@ -6,7 +6,7 @@ import arlimaImage from "../assets/DUFAN/ARUNG JERAM/ar5.JPG"
 
 const ArungJeram = () => {
     return (
-        <div>
+        <div className="subsub">
             <Container>
                 <br />
                 <h1 className="text-white text-center d-flex justify-content-center align-items-center" id="arungjeram">WAHANA ARUNG JERAM</h1>

@@ -42,15 +42,30 @@
 }
 
 .liburanImage {
-    height: 60vh;
+    width: 100%;
+    min-height: 200px;
     background-color: lightblue;
     margin: 5px;
     padding: 5px;
 }
 
 .Image {
-    height: 40vh;
+    width: 100%;
+    min-height: 200px;
     background-color: lightcyan;
     margin: 5px;
     padding: 5px;
+}
+
+.subtitle {
+    font-size: 1.8vh;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.subsub {
+        font-size: 2rem;
+        font-weight: 800;
+        line-height: 1;
+        text-shadow: 2px 2px black;
 }

@@ -6,7 +6,7 @@ import limaImage from "../assets/DUFAN/NIAGARA/lima.JPG"
 
 const Niagara = () => {
     return (
-        <div>
+        <div className="subsub">
             <Container>
                 <br />
                 <h1 className="text-white text-center d-flex justify-content-center align-items-center" id="niagara">WAHANA NIAGARA</h1>
